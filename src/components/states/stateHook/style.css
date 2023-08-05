@@ -1,0 +1,19 @@
+.boxStyle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.divStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.imgGalaxy{
+    width: 300px;
+    max-width: 300px;
+    border-radius: 20%;
+}
