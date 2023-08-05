@@ -1,15 +1,18 @@
-
+import "./style.css"
 interface HeaderProps{
-    src?: string;
+    src: string;
+    alt: string;
+    span?: string;
     children?: React.ReactNode;
 }
 
-export default function Header({ src, children}: HeaderProps): JSX.Element{
+export default function Header({ src, children, span}: HeaderProps): JSX.Element{
     return(
         <>
-        <header>
-            <img src={src} alt={src} />
-            <div>{children}</div>
+        <header className="header">
+            <img className="imgLogo" src={src} alt={src} />
+            <span className="titleLogo">{span}</span>
+            {children}
         </header>
         </>
     )

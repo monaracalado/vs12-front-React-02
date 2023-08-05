@@ -8,12 +8,10 @@ import Header from './components/header/header';
 function App() {
   return (
     <>
-    <h1>Testando</h1>
-    <Header>
-      
-    </Header>
-    <Menu/>
     <BrowserRouter>
+    <Header src={"james-webb.png"} alt={"Telescopio James Webb"} span={'James Webb'}>
+      <Menu/>
+    </Header>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/galeria' element={<Galeria />} />

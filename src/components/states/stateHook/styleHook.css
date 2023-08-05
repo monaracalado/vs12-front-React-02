@@ -12,6 +12,11 @@
     width: 400px;
 }
 
+.titleGalaxy,.nameGalaxy{
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
 .imgGalaxy{
     width: 300px;
     max-width: 300px;

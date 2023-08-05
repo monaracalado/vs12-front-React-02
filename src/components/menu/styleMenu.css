@@ -1,0 +1,21 @@
+.divMenu{
+    display: flex;
+    gap: 3rem;
+    background-color: var(--primary-color);
+    justify-content: end;
+    margin-top: -2.8rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.divMenu a{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.divMenu a:hover{
+    transform: scale(1.02);
+}

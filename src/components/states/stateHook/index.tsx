@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Box } from "@mui/material";
-import "./style.css";
+import "./styleHook.css";
 
 interface Image {
   nasa_id: string;
@@ -38,16 +38,16 @@ export default function ImageList(): JSX.Element {
   };
 
   return (
-    <div>
-      <h1>Here are the NASA images:</h1>
+    <div className="divMain">
+      <h1 className="titleGalaxy">Nebulosas</h1>
       <Box className="boxStyle">
         {images.map((image) => (
           <div className="divStyle" key={image.nasa_id}>
-            <h3>{image.title}</h3>
+            <h3 className="nameGalaxy">{image.title}</h3>
             {image.media_type === "image" ? (
-              <img src={image.href} alt={image.title} className="imgGalaxy" />
+              <img src={image.href} alt={image.title}style={{ minHeight: 250, maxHeight: 350 }} className="imgGalaxy" />
             ) : (
-              <p>Unsupported media type</p>
+              <p>Tipo de mídia incompatível</p>
             )}
           </div>
         ))}

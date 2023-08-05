@@ -1,0 +1,25 @@
+.header,.imgLogo,.titleLogo{
+    background-color: var(--primary-color);
+}
+
+.header{
+    padding: 1rem;
+    box-shadow: 0 0 .3125rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.imgLogo{
+    width: 50px;
+    margin-left: 3rem;
+}
+
+.titleLogo{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    position: absolute;
+    color: var(--background-color);
+    font-weight: 700;
+}
