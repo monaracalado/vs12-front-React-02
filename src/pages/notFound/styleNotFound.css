@@ -1,0 +1,14 @@
+
+.divFooter,.divFooter h1{
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('../../../public/backgound.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 76.5vh;
+}
+.divFooter h1{
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--background-color);
+    margin-top: 5.625rem;
+}
+

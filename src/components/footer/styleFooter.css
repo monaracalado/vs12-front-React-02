@@ -2,7 +2,9 @@
     text-align: center;
     background-color:var(--primary-color);
     color: var(--background-color);
-    margin-top: 10px;
+}
+.textFooter,strong,a.linkFooter,div.boxFooter{
+    padding-top: 6px;
 }
 
 footer.footer{
