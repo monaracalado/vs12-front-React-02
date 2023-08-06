@@ -14,4 +14,5 @@
 .textBanner{
     margin: 44px 44px 20px 20px;
     font-size: 20px;
+    text-align: justify;
 }

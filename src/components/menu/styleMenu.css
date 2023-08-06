@@ -14,6 +14,8 @@
     font-weight: 500;
     font-size: 1.25rem;
     text-decoration: none;
+    display: flex;
+    gap: .25rem;
 }
 
 .divMenu a:hover{
