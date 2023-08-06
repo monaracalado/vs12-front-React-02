@@ -1,0 +1,15 @@
+
+.titleBanner{
+    font-size: 48px;
+    margin:114px 0 30px 25px;
+}
+
+.imgBanner{
+    float: left;
+    margin: 20px;
+}
+
+.textBanner{
+    margin: 44px 44px 20px 20px;
+    font-size: 20px;
+}
