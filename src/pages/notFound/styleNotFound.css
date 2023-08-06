@@ -3,7 +3,8 @@
     background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('../../../public/backgound.jpg');
     background-size: cover;
     background-position: center;
-    height: 76.5vh;
+    height: 76.6vh;
+    margin-top: -1px;
 }
 .divFooter h1{
     text-align: center;
