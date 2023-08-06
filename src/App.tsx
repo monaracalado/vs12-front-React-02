@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Galeria from './pages/galeria/galeria';
 import Home from './pages/home';
 import Header from './components/header/header';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/galeria' element={<Galeria />} />
     </Routes>
+    <Footer linkedin='https://www.linkedin.com/in/monaracalado/' github='https://github.com/monaracalado/'/>
     </BrowserRouter>
     </>
   );
