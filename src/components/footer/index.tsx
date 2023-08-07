@@ -19,7 +19,7 @@ export default function Footer({ github, linkedin }: FooterProps): JSX.Element {
           <GitHubIcon/>
         </Link>
       </Box>
-      <Typography className="textFooter">
+      <Typography className="textFooter" sx={{bgcolor:'#0B1C97'}}>
         &copy; 2023 Developed by <strong>Monara Calado</strong>
       </Typography>
     </footer>
