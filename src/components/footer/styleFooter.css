@@ -2,14 +2,14 @@
     text-align: center;
     background-color:var(--primary-color);
 }
-p.css-ahj2mt-MuiTypography-root.textFooter,strong,a.linkFooter,div.boxFooter{
+p.css-1q0i074.textFooter,strong,a.linkFooter,div.boxFooter{
     color: var(--background-color);
 }
 .textFooter,strong,a.linkFooter,div.boxFooter{
     padding-top: 6px;
 }
 
-footer.footer,.css-ahj2mt-MuiTypography-root{
+footer.footer,p.css-1q0i074{
     background-color: #0B1C97;
 }
 
