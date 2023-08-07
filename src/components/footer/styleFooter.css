@@ -1,13 +1,15 @@
 .textFooter,strong,a>svg,a.linkFooter,div.boxFooter{
     text-align: center;
     background-color:var(--primary-color);
+}
+p.css-ahj2mt-MuiTypography-root.textFooter,strong,a.linkFooter,div.boxFooter{
     color: var(--background-color);
 }
 .textFooter,strong,a.linkFooter,div.boxFooter{
     padding-top: 6px;
 }
 
-footer.footer{
+footer.footer,p.css-ahj2mt-MuiTypography-root.textFooter{
     background-color: #0B1C97;
 }
 

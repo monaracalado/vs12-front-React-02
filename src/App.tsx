@@ -7,6 +7,7 @@ import Header from './components/header/header';
 import Footer from './components/footer';
 import NotFound from './pages/notFound';
 import Historia from './pages/historia';
+import QuizApp from './pages/quiz';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/galeria' element={<Galeria />} />
       <Route path='/historia' element={<Historia/>} />
+      <Route path='/quiz' element={<QuizApp/>} />
       <Route path='/*' element={<NotFound/>} />
     </Routes>
     <Footer linkedin='https://www.linkedin.com/in/monaracalado/' github='https://github.com/monaracalado/'/>

@@ -34,3 +34,11 @@
 .divMain{
   margin-top: 5.625rem;
 }
+
+p,span,h1{
+  color: var(--font-color);
+}
+
+svg{
+  color: var(--accent-color);
+}
