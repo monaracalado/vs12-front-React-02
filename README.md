@@ -1,3 +1,40 @@
+<h1 align="center"> James Webb </h1>
+
+<p align="center">
+  Aplicação Web que conta um pouco da história do Telescopio espacial James Webb
+</p>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  <img alt="imagem do site pronto no vercel" src="./public/siteJamesWebb.png">
+</p>
+
+<p align="center">
+<a href="https://vs12-front-react-02.vercel.app/">Projeto no Vercel</a>
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- TypeScript
+- React
+- Figma
+
+## 💻 Sobre o Projeto
+
+O projeto é uma aplicação web que conta um pouco sobre a história do **Telescopio espacial James Webb**. Essa aplicação conta com 5 telas, Home, História, Galeria, Quiz e Not Found. Na pagina inicial você tem um breve resumo sobre o telescopio. Na tela seguinte é contada um pouco sobre a história. Em seguida uma galeria com fotos de nebulosas. No quiz temos algumas perguntas sobre o que foi lido no site. Por fim, caso seja solicitado uma rota inexistente, o usuario será redirecionando para a Not Found.
+
+- <a href="https://www.figma.com/file/MCYNxTQvB6S6wiuTkh2b3j/James-Webb?type=design&node-id=2%3A129&mode=design&t=XLIQnKjpv32pEQPs-1">Link do Figma</a>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
