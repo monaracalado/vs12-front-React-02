@@ -10,10 +10,17 @@ import Historia from './pages/historia';
 import QuizApp from './pages/quiz';
 
 function App() {
+  let imgLogo = 'james-webb.png'
+  let altLogo = "Telescopio James Webb"
+  let titleLogo = 'James Webb'
+
+  let linkedin = 'https://www.linkedin.com/in/monaracalado/'
+  let github = 'https://github.com/monaracalado/'
+  
   return (
     <>
     <BrowserRouter>
-    <Header src={"james-webb.png"} alt={"Telescopio James Webb"} span={'James Webb'}>
+    <Header src={imgLogo} alt={altLogo} span={titleLogo}>
       <Menu/>
     </Header>
     <Routes>
@@ -23,7 +30,7 @@ function App() {
       <Route path='/quiz' element={<QuizApp/>} />
       <Route path='/*' element={<NotFound/>} />
     </Routes>
-    <Footer linkedin='https://www.linkedin.com/in/monaracalado/' github='https://github.com/monaracalado/'/>
+    <Footer linkedin={linkedin} github={github}/>
     </BrowserRouter>
     </>
   );
